@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.1'
 
-  # s.vendored_frameworks = 'MotionDnaSDK.framework'
+  s.vendored_frameworks = 'MotionDnaSDK.framework'
   # framework handle the file layout. doesn't need to specify the public or private header files.
   # s.module_name = 'MotionDnaSDKasdf'
   # s.header_dir = 'MotionDnaSDKasdf'
