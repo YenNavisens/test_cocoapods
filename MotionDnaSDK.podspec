@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.author           = { 'Navisens, Inc' => 'lucas.mckenna@navisens.com' }
   # s.source           = { :git => 'https://github.com/navisens/iOS-SDK.git', :tag => 'v'+s.version.to_s }
-  s.source           = { :http => "https://github.com/navisens/iOS-SDK/releases/download/v#{s.version.to_s}/MotionDnaSDK.framework.zip" }
+  s.source           = { :http => "https://github.com/navisens/iOS-SDK/releases/download/v1.7.2/MotionDnaSDK.framework.zip" }
 
   s.ios.deployment_target = '9.1'
 
