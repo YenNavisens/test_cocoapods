@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MotionDnaSDK'
-  s.version='1.5.0'
+  s.version='1.7.2'
   s.summary          = 'Navisens MotionDnaSDK'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.1'
 
-  s.vendored_frameworks = 'MotionDnaSDK.framework'
+  # s.vendored_frameworks = 'MotionDnaSDK.framework'
   # framework handle the file layout. doesn't need to specify the public or private header files.
   # s.module_name = 'MotionDnaSDKasdf'
   # s.header_dir = 'MotionDnaSDKasdf'
